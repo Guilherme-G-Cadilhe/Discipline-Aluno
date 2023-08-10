@@ -1,21 +1,21 @@
 import styles from './Button.module.css'
-import Icon from '../Icons/Icon.jsx'
+import { Puzzle, Taskboard } from '../Icon/Icon.jsx'
 
 
-function Button({text, icon, hasIcon, onClick}) {
+function AccentButton({text, icon, hasIcon, onClick}) {
     return (
         <>
             {onClick ? (
-                <button className={styles.button} onClick={onClick}>
+                <button className={`${styles.button} ${styles.accent_button}`} onClick={onClick}>
                     {hasIcon && (
-                        <Icon />
+                        <Taskboard />
                     )}
                     <span>{text}</span>
                 </button>
             ) : (
-                <button className={styles.button}>
+                <button className={`${styles.button} ${styles.accent_button}`}>
                     {hasIcon && (
-                        <Icon />
+                        <Taskboard />
                     )}
                     <span>{text}</span>
                 </button>
@@ -24,4 +24,4 @@ function Button({text, icon, hasIcon, onClick}) {
     )
 }
 
-export default Button
+export default AccentButton
