@@ -1,5 +1,7 @@
 import AccentButton from "./Components/Buttons/AccentButton";
 import PrimaryButton from "./Components/Buttons/PrimaryButton";
+import Avaliacao from './Components/Avaliacao/Avaliacao'
+
 import "./App.css";
 
 function App() {
@@ -14,12 +16,16 @@ function App() {
     }
 
     return (
-        <div style={divInline}>
-            <AccentButton text="Clicka em mim" hasIcon={true} onClick={Teste}/>
-            <PrimaryButton text="Clicka em mim" hasIcon={true} onClick={Teste} />
-            <AccentButton text="Clicka em mim" hasIcon={false} onClick={Teste}/>
-            <PrimaryButton text="Clicka em mim" hasIcon={false} onClick={Teste} />
-        </div>
+        
+        <>
+            {/* <div style={divInline}>
+                <AccentButton text="Clicka em mim" hasIcon={true} onClick={Teste}/>
+                <PrimaryButton text="Clicka em mim" hasIcon={true} onClick={Teste} />
+                <AccentButton text="Clicka em mim" hasIcon={false} onClick={Teste}/>
+                <PrimaryButton text="Clicka em mim" hasIcon={false} onClick={Teste} />
+            </div> */}
+            <Avaliacao className={"joke"} />
+        </>
     );
 }
 
