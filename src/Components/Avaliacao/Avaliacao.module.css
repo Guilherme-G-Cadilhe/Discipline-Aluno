@@ -13,8 +13,9 @@
     font-weight: bolder;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     position: relative;
+    transition: all 0.5s;
 }
 
 .query_line::after {
@@ -26,6 +27,10 @@
     background-color: #565656;
     margin-top: 10px;
     position: absolute;
+}
+
+.query_line:hover {
+    background-color: gray;
 }
 
 .avaliacao {

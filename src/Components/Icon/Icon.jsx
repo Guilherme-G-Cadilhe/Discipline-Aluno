@@ -2,6 +2,7 @@ import puzzle from '../../assets/Icons/Puzzle.png'
 import taskboard from '../../assets/Icons/Taskboard.png'
 import menu from '../../assets/Icons/Menu.png'
 import filter from '../../assets/Icons/Filter.png'
+import next from '../../assets/Icons/Next.png'
 import styles from './Icon.module.css'
 
 export function Puzzle({type}) {

@@ -1,6 +1,7 @@
 import enem from '../../assets/IconsProva/Enem.png';
 import mit from '../../assets/IconsProva/MIT.png';
 import obmep from '../../assets/IconsProva/Obmep.png'
+import discipline from '../../assets/IconsProva/logo.png'
 import styles from './Icon.module.css'
 
 
@@ -24,6 +25,14 @@ export function Obmep() {
     return (
         <>
             <img src={obmep} alt="Icon da OBMEP" className={styles.icon_prova} />
+        </>
+    )
+}
+
+export function Discipline() {
+    return (
+        <>
+            <img src={discipline} alt="Icon do Discipline" className={styles.icon_prova} />
         </>
     )
 }
