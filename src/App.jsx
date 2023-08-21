@@ -2,12 +2,15 @@ import AccentButton from "./Components/Buttons/AccentButton";
 import PrimaryButton from "./Components/Buttons/PrimaryButton";
 import Avaliacao from './Components/Avaliacao/Avaliacao'
 
+import './assets/css/bootstrap-grid.min.css'
+import './assets/css/bootstrap-reboot.min.css'
 import "./App.css";
+import Teste from "./Components/Teste/Teste";
 
 function App() {
-    const Teste = () => {
-        alert("clicked")
-    }
+    // const Teste = () => {
+    //     alert("clicked")
+    // }
 
     const divInline = {
         display: "flex",
